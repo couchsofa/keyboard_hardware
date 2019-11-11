@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:sofaboard-cache
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2757,23 +2758,23 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 5CE1B4FE
-P 4550 3900
-F 0 "R3" V 4450 3900 50  0000 C CNN
-F 1 "22" V 4550 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 3900 50  0001 C CNN
-F 3 "~" H 4550 3900 50  0001 C CNN
-	1    4550 3900
+P 2200 3900
+F 0 "R3" V 2100 3900 50  0000 C CNN
+F 1 "22" V 2200 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2130 3900 50  0001 C CNN
+F 3 "~" H 2200 3900 50  0001 C CNN
+	1    2200 3900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5CE1D9C5
-P 4200 4000
-F 0 "R1" V 4300 4000 50  0000 C CNN
-F 1 "22" V 4200 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 4000 50  0001 C CNN
-F 3 "~" H 4200 4000 50  0001 C CNN
-	1    4200 4000
+P 2200 4000
+F 0 "R1" V 2300 4000 50  0000 C CNN
+F 1 "22" V 2200 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2130 4000 50  0001 C CNN
+F 3 "~" H 2200 4000 50  0001 C CNN
+	1    2200 4000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2874,8 +2875,6 @@ F 3 "~" H 3350 3300 50  0001 C CNN
 	1    3350 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 4000 4050 4000
 $Comp
 L Device:C C3
 U 1 1 5D2976BA
@@ -3159,8 +3158,6 @@ $EndComp
 Wire Wire Line
 	5400 6600 5400 6700
 Connection ~ 5400 6600
-Wire Wire Line
-	2050 3900 4400 3900
 NoConn ~ 2050 4100
 Wire Wire Line
 	4800 3100 3100 3100
@@ -3198,4 +3195,12 @@ NoConn ~ 6000 3200
 NoConn ~ 6000 3100
 NoConn ~ 6000 3000
 NoConn ~ 6000 2900
+Text GLabel 4700 3900 0    50   Input ~ 0
+D+
+Text GLabel 2350 3900 2    50   Input ~ 0
+D+
+Text GLabel 4350 4000 0    50   Input ~ 0
+D-
+Text GLabel 2350 4000 2    50   Input ~ 0
+D-
 $EndSCHEMATC
